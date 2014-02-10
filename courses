@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+      <link type="text/css" rel="stylesheet" href="css/normalize.css"/>
+      <link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
+        <title>Courses</title>
+  </head>
+    <body>
+		<header>
+            <img src="images/logo-blue.png" alt="brain station logo">
+            <nav class="nav-bar">
+              <a href="index.html">Home</a>
+              <a href="courses.html">Courses</a>
+              <a href="">Students</a>
+              <a href="">Blog</a>
+            </nav>
+            <div class="menu-bar group">
+            <a href="#">Email Us</a>
+            </div>
+		</header>
+	 
+<section class="page">
+           
+           <div id="tabs" class="group">
+                <nav class="group">
+                    <a href="#" class="btn" data-tab="tab1">Show Tab 1</a>
+                    <a href="#" class="btn" data-tab="tab2">Show Tab 2</a>
+                    <a href="#" class="btn" data-tab="tab3">Show Tab 3</a>
+                </nav>
+               
+               <div class="content" id="tab1">
+                   Tab 1
+               </div>
+               <div class="content" id="tab2">
+                   Tab 2
+               </div>
+               <div class="content" id="tab3">
+                   Tab 3
+               </div>
+           </div>
+
+        </section>
+
+
+      <footer>
+          <div class="social-buttons"></div>
+          <p>Mark Byrne</p>
+       </footer>
+
+        <script type="text/javascript" src="js/lib/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+
+
+    </body>
+
+</html>

@@ -44,8 +44,7 @@ header img {
 
 nav {
 display: inline-block;
-height:30px;
-text-align: center;
+text-align: middle;
 }
 
 .nav-bar a{
@@ -278,8 +277,25 @@ footer {
 }
 
 .social-nav {
-	display: inline;
+	display: block;
+	vertical-align:middle;
+	float: right;
+	margin-right: 150px;
+
 }
+
+.social-nav li {
+	list-style: none;
+}
+
+.sprites-list a {
+	display: inline-block;
+	vertical-align:middle;
+
+
+}
+
+
 
 .footer-note {
 	display: relative;
@@ -444,11 +460,10 @@ height: 330px;
  }
 
  .sprite-social {
-    display: inline-block;
+    display: block;
     width: 32px;
     height: 32px;
     margin-right: 10px;
-    float: right;
     background-image: url(../images/sprite-social.png);
 }
 
